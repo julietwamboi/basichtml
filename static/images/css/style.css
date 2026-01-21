@@ -1,0 +1,89 @@
+body{
+    background-color:aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+h1{
+    color: aqua;
+}
+h2{
+    color: black;
+}
+#one{
+    color: blue;
+}
+h2{
+    color: rgb(200, 80, 255);
+    text-decoration: underline;
+    margin-top: auto;
+}
+.hello{
+    color: dodgerblue;
+}
+h3{
+    color: brown;
+    text-align: left;
+    text-decoration: underline;
+}
+h4{
+    color:gold;
+    text-decoration: underline;
+}
+#header{
+    background-color: darksalmon;
+    text-align: center;
+    text-decoration: solid;
+    padding: 25px;
+    margin:25px ;
+    border: 1px solid coral;
+}
+#content{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid blueviolet;
+    margin:25px;
+    padding: 20px;
+}
+#dot{
+    background-color: aquamarine;
+    border: 1px solid plum;
+    margin: 25px;
+    padding: 25px;
+}
+#no{
+    background-color: darkslategrey;
+    border: 1px solid wheat;
+    margin:25px;
+    padding: 25px;
+}
+#hero{
+    text-align: center;
+    background-image: url(../images_002.jpeg);
+    background-size:cover;
+    padding: 50px;
+    margin: auto;
+    height: 100px;
+}
+#nav ul{
+    background-color: lightcyan;
+    padding: 25px;
+    list-style: none;
+    text-align: center;
+}
+#nav ul li {
+    display: inline;
+    margin: 15px;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: rgb(211, 7, 0);
+    font-weight: bold;
+}
+#nav ul li a:hover{
+    background-color: black;
+    padding: 5px;
+}
+
+
+
+
+
