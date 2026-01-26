@@ -1,0 +1,51 @@
+body{
+    background-color:azure;
+}
+@keyframes chrome{
+ 0%{
+    color: black;
+ }
+ 25%{
+    color: burlywood;
+ }
+ 50%{
+    color: brown;
+ }
+ 100%{
+    color: chartreuse;
+ }
+}
+#one{
+    /*--animation-name:chrome;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+    animation: chrome 4s infinite;
+}
+#myheading{
+    animation:slidein 5s infinite
+}
+@keyframes slidein{
+    from{
+        transform: translate(0);
+        color: darkred;
+    }
+    to{
+        transform: translateX(800px);
+        color: forestgreen;
+    }  
+}
+#mydiv{
+    width: 100px;
+    background-color: darkgray;
+    height: 320px;
+    animation: rotate 5s 10;
+}
+@keyframes rotate{
+    0%{transform:translateX(0) rotate(0deg);
+    background-color: fuchsia;}
+    50%{transform: rotate(180deg);
+    background-color: crimson;}
+    100%{transform: rotate(360deg);
+    background-color: darkorange;
+    transform:translate(500px);}
+}
